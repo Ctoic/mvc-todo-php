@@ -2,9 +2,9 @@
 
     function connection() {
         $username = "root";
-        $password = "";
+        $password = "MyStrongPassword1234$";
         $host = "localhost";
-        $db_name = "todos";
+        $db_name = "Trinity";
         $dsn = "mysql:host=$host;dbname=$db_name";
 
         try {
